@@ -1,0 +1,8 @@
+Insights From Commbank's Twitter for InsightSpark
+Task: write a proposal that suggests ways that InsightSpark can use the available data on the @CommBank Twitter account to extract valuable insights.
+
+Ways to extract insights:
+    - Find what you can do to make a tweet engaging (look at the audience responses through likes, retweets, comments)
+    - Look at the followers of the poeple of the account. Find what demographic those people are from, why figure out why they are interested in Commbank's services
+    - Look at the activity of the tweets responding to and replying to Commbank. Use this to draw user opinions about Commbank
+    - Look at who Commbank collaborated with for advertising. Are these well received? Are these tweets effective in achieving their goal whether be marketing (could be measured through user reception in comments)

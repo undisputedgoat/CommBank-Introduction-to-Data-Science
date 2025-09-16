@@ -1,0 +1,25 @@
+Specific fields to include: time tweet was sent, sender of the tweet, num. replies on tweet, num. reposts on tweet, likes on tweet, views on tweet
+Other tables which link to the primary table: contents of the replied tweets, send time of replied comment, views on replied comment, likes on comment
+
+Separate tables:
+    1. Table for users
+    2. Tweets table
+    3. Followers table
+    4. Likes and retweets table (two tables)
+    5. Media table
+
+Items stored in each table: 
+    1. Users: username, hashed password, time of signing up, location of last login, age, tweets
+    2. Tweets: contents of tweet, number of characters in tweet, who sent the tweet, time of tweet, tweet_id
+    3. Followers: follows_you, accounts_you_follow, username
+    4. Likes and retweets: num of likes, num of retweets, usernames of accounts which retweeted and likes, tweet_id
+    5. Media: media itself, file format
+
+Primary Keys:
+    1. Users: username or user_id
+    2. Tweets: tweet_id probably
+    3. Followers: username or user_id
+    4. Likes and Retweets: tweet_id
+    5. Media: media_id
+
+They are related to each other through mainly being linked to the User Table. The media, likes, retweets, table link to the tweet table. The tweets table links to the user table. The followers table also links to the user table. 
