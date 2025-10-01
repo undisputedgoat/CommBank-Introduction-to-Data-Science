@@ -2,6 +2,8 @@
 
 A collection of exploratory notebooks prepared for the CommBank Introduction to Data Science challenge. Each task focuses on a different stage of the analytics workflow: aggregating transaction data, anonymising sensitive customer attributes, and outlining approaches for social media insight generation.
 
+From this link: https://www.theforage.com/simulations/commonwealth-bank/intro-data-science-sd7t
+
 ## Repository Layout
 - `task1.ipynb` – supermarket transaction aggregation and KPI calculations.
 - `task2.ipynb` – customer data anonymisation pipeline and export.
